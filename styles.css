@@ -225,13 +225,11 @@ p {
 }
 
 .mark {
-    min-height: 260px;
-    background: linear-gradient(145deg, #084937, #042a20);
-    border: 1px solid #376b59;
-    display: grid;
-    place-content: center;
-    text-align: center;
-    position: relative;
+    width: min(100%, 420px);
+    min-height: 0;
+    aspect-ratio: 1.35 / 1;
+    justify-self: end;
+    overflow: hidden;
 }
     
 .arrow {
@@ -250,11 +248,20 @@ p {
     top: 48%;
 }
 
-.mark small{
+.mark small {
     margin-top: 32px;
     color: var(--ivory);
     letter-spacing: .22em;
     font-weight: 700;
+}
+
+.mark img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    padding: 22px;
+    object-fit: contain;
 }
 
 .about-hero {
@@ -323,20 +330,20 @@ p {
 
 .contact-links a {
     min-width: min(100%, 320px);
-  padding: 19px 24px;
-  border: 1px solid #588272;
-  color: #fff;
-  font-size: 18px;
-  text-decoration: none;
+    padding: 19px 24px;
+    border: 1px solid #588272;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .contact-links small {
-  display: block;
-  margin-bottom: 6px;
-  color: var(--gold);
-  font-size: 10px;
-  letter-spacing: .15em;
-  text-transform: uppercase;
+    display: block;
+    margin-bottom: 6px;
+    color: var(--gold);
+    font-size: 10px;
+    letter-spacing: .15em;
+    text-transform: uppercase;
 }
 
 .email {
@@ -344,5 +351,12 @@ p {
 }
 
 @media (max-width: 760px) {
-  .contact-links { display: grid; }
+    .contact-links { 
+        display: grid; 
+    }
+
+    .mark img {
+        justify-self: center;
+        padding: 0;
+    }
 }
