@@ -178,7 +178,7 @@ p {
 
 .service-list article {
     display: grid;
-    grid-template-columns: 48px 1fr 1fr;
+    grid-template-columns: 48px minmax(0, 1fr) minmax(0, 1fr);
     gap: 12px;
     padding: 25px 0;
     border-bottom: 1px solid #c6beb1;
@@ -351,6 +351,24 @@ p {
 }
 
 @media (max-width: 760px) {
+
+    .services {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .service-list article {
+        grid-template-columns: 34px minmax(0, 1fr);
+    }
+
+    .service-list article p {
+        grid-column: 2;
+    }
+
+    .service-list h3, .service-list p {
+        min-width: 0;
+    }
+
     .contact-links { 
         display: grid; 
     }
@@ -359,4 +377,31 @@ p {
         justify-self: center;
         padding: 0;
     }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 18px;
+        padding: 25px 24px;
+    }
+
+    footer .wordmark {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    footer > a:last-child {
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: end;
+    }
+
+    footer p {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        margin: 0;
+        text-align: center;
+    }
+
 }
