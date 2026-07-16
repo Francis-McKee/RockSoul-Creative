@@ -47,7 +47,7 @@ body {
 
 nav {
     display: flex;
-    gap:28px;
+    gap: 28px;
 }
 
 nav a {
@@ -360,6 +360,58 @@ p {
 }
 
 @media (max-width: 760px) {
+
+    .site-header {
+        padding: 19px 20px;
+    }
+
+    .wordmark {
+        font-size: 13px;
+        letter-spacing: .14em;
+        white-space: nowrap;
+    }
+
+    nav {
+        gap: 12px;
+        justify-content: flex-end;
+    }
+
+    nav a {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    .hero,
+    .services,
+    .rocksoul,
+    .about-hero,
+    .bio,
+    .focus,
+    .connect {
+        grid-template-columns: 1fr;
+    }
+
+    .hero,
+    .about-hero {
+        gap: 45px;
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 520px;
+        justify-self: start;
+    }
+
+    .about-hero img {
+        width: 100%;
+        max-height: none;
+    }
+
+    .hero-image img,
+    .about-hero img {
+        width: 100%;
+        height: auto;
+    }
 
     .services {
         grid-template-columns: 1fr;
