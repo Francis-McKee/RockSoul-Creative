@@ -1,11 +1,11 @@
 :root {
-    --ink: #0d0d0b;
-    --green: #063d30;
-    --green2: #092d25;
-    --gold: #d4af37;
-    --ivory: #f7f5f0;
-    --sand: #e9e3d8;
-    --muted: #b9b9ae;
+    --ink: #0D0D0D;
+    --green: #0E5B3E;
+    --green2: #083D2B;
+    --gold: #D4AF37;
+    --ivory: #F7F5F0;
+    --sand: #E9E3D8;
+    --muted: #7A7A7A;
 }
 
 * {
@@ -316,7 +316,7 @@ p {
 }
 
 .connect {
-    background: var(--green);
+    background: var(--green2);
     color: #fff;
     padding: clamp(75px, 11vw, 145px) max(5vw, 32px);
 }
