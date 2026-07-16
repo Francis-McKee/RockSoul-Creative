@@ -306,6 +306,15 @@ p {
     padding: clamp(70px, 10vw, 130px) max(5vw, 32px);
 }
 
+.value-grid {
+    border-top: 1px solid #c6beb1;
+}
+
+.value-grid article {
+    border-bottom: 1px solid #c6beb1;
+    padding: 25px 0;
+}
+
 .connect {
     background: var(--green);
     color: #fff;
