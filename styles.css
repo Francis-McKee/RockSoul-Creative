@@ -141,6 +141,9 @@ p {
     width: 100%;
     display: block;
     filter: saturate(.86);
+    height: min(68vh, 560px);
+    object-fit: cover;
+    object-position: center top;
 }
 
 .image-accent {
@@ -399,18 +402,23 @@ p {
     .hero-image {
         width: 100%;
         max-width: 520px;
+        height: min(110vw, 430px);
         justify-self: start;
     }
 
-    .about-hero img {
+    .hero-image img {
         width: 100%;
-        max-height: none;
+        height: 100%;
+        object-fit: cover;
+        object-position: center top;
     }
 
-    .hero-image img,
     .about-hero img {
         width: 100%;
-        height: auto;
+        height: min(100vw, 400px);
+        max-height: 400px;
+        object-fit: cover;
+        object-position: center top;
     }
 
     .services {
@@ -434,8 +442,11 @@ p {
         display: grid; 
     }
 
-    .mark img {
+    .mark {
         justify-self: center;
+    }
+
+    .mark img {
         padding: 0;
     }
 
