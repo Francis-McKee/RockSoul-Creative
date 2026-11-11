@@ -2,7 +2,7 @@
 
 A responsive, two-page business website developed to establish a professional online presence for RockSoul Creative.
 
-**Live Website:** [View RockSoul Creative](https://francismckee.com/RockSoul-Creative/)
+**Live Website:** [RockSoul Creative](https://francismckee.com/RockSoul-Creative/)
 
 ## Project Overview
 
@@ -44,7 +44,8 @@ My responsibilities included:
 
 - HTML
 - CSS
-- AI-assisted design and development
+
+**Development Approach:** AI-assisted design and development
 
 ## Results and Impact
 
