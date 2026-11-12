@@ -45,8 +45,6 @@ My responsibilities included:
 - HTML
 - CSS
 
-**Development Approach:** AI-assisted design and development
-
 ## Results and Impact
 
 The project delivered RockSoul Creative's first website, establishing a dedicated online destination for prospective clients.
@@ -63,7 +61,7 @@ This arrangement allowed the client to establish an online presence without taki
 
 ## About the Developer
 
-Developed by **Francis N. McKee**, founder of Francis N. McKee & Associates, LLC.
+Developed by **Francis McKee**, founder of Francis N. McKee & Associates, LLC.
 
 I build practical websites and digital solutions that help small businesses establish their online presence and better serve their customers.
 
